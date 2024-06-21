@@ -1,0 +1,67 @@
+{
+  "files.autoSave": "afterDelay",
+  "vsicons.dontShowNewVersionMessage": true, 
+  "cmake.configureOnOpen": false,
+  "explorer.confirmDelete": false,
+  "cmake.showOptionsMovedNotification": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.showFoldingControls": "never",
+  "editor.cursorSmoothCaretAnimation": "on",
+  // "editor.smoothScrolling": true,
+  "editor.fontLigatures": true,
+  // "editor.fontFamily":  "gabriola regular",
+  // "editor.fontFamily": "yu gothic ui",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.fontWeight": "normal",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 14,
+  "reactSnippets.settings.importReactOnTop": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": false,
+  "window.menuBarVisibility": "compact",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "prettier.jsxSingleQuote": true,
+  "codeium.enableCodeLens": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.iconTheme": "vscode-icons",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.editorAssociations": {
+    "*.so": "sqlite-viewer.option"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.packages,.flutter-plugins,.flutter-plugins-dependencies,.metadata",
+    "*.dart": "${capture}.g.dart",
+    "*.sqlite": "${capture}.${extname}-*",
+    "*.db": "${capture}.${extname}-*",
+    "*.sqlite3": "${capture}.${extname}-*",
+    "*.db3": "${capture}.${extname}-*",
+    "*.sdb": "${capture}.${extname}-*",
+    "*.s3db": "${capture}.${extname}-*"
+  }
+}
